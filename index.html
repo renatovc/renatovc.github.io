@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] Photography - Landscape & Street Photographer</title>
+    <meta name="description" content="Portfolio of a landscape and street photographer based near Santiago, Chile. Capturing moments and telling stories from around the world.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="#home" class="logo">[Your Name] Photography</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#landscapes">Landscapes</a></li>
+                    <li><a href="#street">Street Photography</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Capturing Moments, Telling Stories</h1>
+                <p>Exploring the raw beauty of landscapes and the vibrant energy of city life through my lens.</p>
+                <a href="#featured" class="cta-button">View My Best Work</a>
+            </div>
+        </section>
+
+        <section id="featured" class="gallery-section">
+            <div class="container">
+                <h2>Featured Work</h2>
+                <div class="photo-grid">
+                    <a href="images/featured-1.jpg" data-lightbox="featured" data-title="A descriptive caption for image 1">
+                        <picture>
+                            <source srcset="images/featured-1-thumb.webp" type="image/webp">
+                            <img src="images/featured-1-thumb.jpg" alt="Description of featured photo 1" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="images/featured-2.jpg" data-lightbox="featured" data-title="A descriptive caption for image 2">
+                        <picture>
+                            <source srcset="images/featured-2-thumb.webp" type="image/webp">
+                            <img src="images/featured-2-thumb.jpg" alt="Description of featured photo 2" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="images/featured-3.jpg" data-lightbox="featured" data-title="A descriptive caption for image 3">
+                        <picture>
+                            <source srcset="images/featured-3-thumb.webp" type="image/webp">
+                            <img src="images/featured-3-thumb.jpg" alt="Description of featured photo 3" loading="lazy">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="landscapes" class="gallery-section">
+            <div class="container">
+                <h2>Landscapes</h2>
+                <div class="photo-grid">
+                    <a href="images/landscape-1.jpg" data-lightbox="landscapes" data-title="Landscape caption 1">
+                        <picture>
+                            <source srcset="images/landscape-1-thumb.webp" type="image/webp">
+                            <img src="images/landscape-1-thumb.jpg" alt="Description of landscape photo 1" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="images/landscape-2.jpg" data-lightbox="landscapes" data-title="Landscape caption 2">
+                        <picture>
+                            <source srcset="images/landscape-2-thumb.webp" type="image/webp">
+                            <img src="images/landscape-2-thumb.jpg" alt="Description of landscape photo 2" loading="lazy">
+                        </picture>
+                    </a>
+                    </div>
+            </div>
+        </section>
+        
+        <section id="street" class="gallery-section">
+            <div class="container">
+                <h2>Street Photography</h2>
+                <div class="photo-grid">
+                    <a href="images/street-1.jpg" data-lightbox="street" data-title="Street photo caption 1">
+                        <picture>
+                            <source srcset="images/street-1-thumb.webp" type="image/webp">
+                            <img src="images/street-1-thumb.jpg" alt="Description of street photo 1" loading="lazy">
+                        </picture>
+                    </a>
+                    <a href="images/street-2.jpg" data-lightbox="street" data-title="Street photo caption 2">
+                         <picture>
+                            <source srcset="images/street-2-thumb.webp" type="image/webp">
+                            <img src="images/street-2-thumb.jpg" alt="Description of street photo 2" loading="lazy">
+                        </picture>
+                    </a>
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container about-flex">
+                <img src="images/your-profile-photo.jpg" alt="A photo of you" class="profile-photo">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Based in Peñaflor, just outside the vibrant city of Santiago, Chile, I find inspiration in the contrasts of the world. From the serene, sweeping landscapes of the Andes to the fleeting, candid moments of urban life, my photography is a journey to capture the essence of a place and its stories.</p>
+                    <p>My passion is to freeze a moment in time, whether it's the quiet majesty of nature or the dynamic pulse of the street. I believe every image has a story to tell, and I strive to tell it with honesty and artistry.</p>
+                </div>
+            </div>
+        section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have a question, a project in mind, or just want to talk about photography? I'd love to hear from you. Fill out the form below or connect with me on social media.</p>
+                
+                <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    
+                    <input type="text" name="_gotcha" style="display:none">
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div class="social-links">
+                    <a href="https://instagram.com/your-username" target="_blank" title="Instagram">
+                        <img src="images/instagram-icon.png" alt="Instagram Icon">
+                    </a>
+                    <a href="https://facebook.com/your-username" target="_blank" title="Facebook">
+                        <img src="images/facebook-icon.png" alt="Facebook Icon">
+                    </a>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p class="footer-note">Designed and built with passion. | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

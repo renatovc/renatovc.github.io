@@ -1,0 +1,12 @@
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de sistema de macOS
+.DS_Store
+
+# Archivos temporales y de caché
+*.tmp
+*.cache
+
+# Dependencias (si en el futuro usas npm)
+node_modules/
