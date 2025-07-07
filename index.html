@@ -9,9 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@700&display=swap" rel="stylesheet">
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,6 +19,7 @@
             <a href="#home" class="logo">[Your Name]</a>
             <nav class="main-nav">
                 <ul>
+                    <li><a href="#featured">Featured</a></li>
                     <li><a href="#landscapes">Landscapes</a></li>
                     <li><a href="#street">Street</a></li>
                     <li><a href="#about">About</a></li>
@@ -38,30 +37,41 @@
                 <p>Capturing moments from Peñaflor, Chile, to the world.</p>
             </div>
         </section>
+        
+        <section id="featured" class="featured-section">
+            <h2>Featured Work</h2>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide"><img src="images/featured-1.jpg" alt="Featured Photo 1"></div>
+                    <div class="slide"><img src="images/featured-2.jpg" alt="Featured Photo 2"></div>
+                    <div class="slide"><img src="images/featured-3.jpg" alt="Featured Photo 3"></div>
+                    <div class="slide"><img src="images/featured-4.jpg" alt="Featured Photo 4"></div>
+                    <div class="slide"><img src="images/featured-5.jpg" alt="Featured Photo 5"></div>
+                    <div class="slide"><img src="images/featured-6.jpg" alt="Featured Photo 6"></div>
+                    <div class="slide"><img src="images/featured-1.jpg" alt="Featured Photo 1"></div>
+                    <div class="slide"><img src="images/featured-2.jpg" alt="Featured Photo 2"></div>
+                    <div class="slide"><img src="images/featured-3.jpg" alt="Featured Photo 3"></div>
+                    <div class="slide"><img src="images/featured-4.jpg" alt="Featured Photo 4"></div>
+                    <div class="slide"><img src="images/featured-5.jpg" alt="Featured Photo 5"></div>
+                    <div class="slide"><img src="images/featured-6.jpg" alt="Featured Photo 6"></div>
+                </div>
+            </div>
+        </section>
 
         <section id="landscapes" class="gallery-section">
             <div class="container">
                 <h2>Landscapes</h2>
                 <div class="photo-grid">
-                    <a href="images/landscape-1.jpg" data-lightbox="landscapes" data-title="A descriptive caption for the landscape photo.">
-                        <picture>
-                            <source srcset="images/landscape-1-thumb.webp" type="image/webp">
-                            <img src="images/landscape-1-thumb.jpg" alt="Description of landscape photo 1" loading="lazy">
-                        </picture>
+                    <a href="stories/template-story.html">
+                        <img src="images/landscape-1-thumb.jpg" alt="A project about the Dolomites">
                     </a>
-                    <a href="images/landscape-2.jpg" data-lightbox="landscapes" data-title="Another descriptive caption.">
-                        <picture>
-                            <source srcset="images/landscape-2-thumb.webp" type="image/webp">
-                            <img src="images/landscape-2-thumb.jpg" alt="Description of landscape photo 2" loading="lazy">
-                        </picture>
+                    <a href="stories/template-story.html">
+                        <img src="images/landscape-2-thumb.jpg" alt="A project about the Andes">
                     </a>
-                     <a href="images/landscape-3.jpg" data-lightbox="landscapes" data-title="A vertical landscape photo.">
-                        <picture>
-                            <source srcset="images/landscape-3-thumb.webp" type="image/webp">
-                            <img src="images/landscape-3-thumb.jpg" alt="Description of landscape photo 3" loading="lazy">
-                        </picture>
+                    <a href="stories/template-story.html">
+                        <img src="images/landscape-3-thumb.jpg" alt="A project about the Atacama Desert">
                     </a>
-                    </div>
+                </div>
             </div>
         </section>
         
@@ -69,25 +79,13 @@
             <div class="container">
                 <h2>Street Photography</h2>
                 <div class="photo-grid">
-                    <a href="images/street-1.jpg" data-lightbox="street" data-title="Street photo caption 1">
-                        <picture>
-                            <source srcset="images/street-1-thumb.webp" type="image/webp">
-                            <img src="images/street-1-thumb.jpg" alt="Description of street photo 1" loading="lazy">
-                        </picture>
+                    <a href="stories/template-story.html">
+                        <img src="images/street-1-thumb.jpg" alt="A project about Santiago streets">
                     </a>
-                    <a href="images/street-2.jpg" data-lightbox="street" data-title="Street photo caption 2">
-                         <picture>
-                            <source srcset="images/street-2-thumb.webp" type="image/webp">
-                            <img src="images/street-2-thumb.jpg" alt="Description of street photo 2" loading="lazy">
-                        </picture>
+                    <a href="stories/template-story.html">
+                         <img src="images/street-2-thumb.jpg" alt="A project about Valparaiso colors">
                     </a>
-                     <a href="images/street-3.jpg" data-lightbox="street" data-title="Street photo caption 3">
-                         <picture>
-                            <source srcset="images/street-3-thumb.webp" type="image/webp">
-                            <img src="images/street-3-thumb.jpg" alt="Description of street photo 3" loading="lazy">
-                        </picture>
-                    </a>
-                    </div>
+                </div>
             </div>
         </section>
 
@@ -104,7 +102,6 @@
             <div class="container">
                 <h2>Get in Touch</h2>
                 <p>Have a question or a project in mind? I'd love to hear from you.</p>
-                
                 <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="contact-form">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
@@ -112,7 +109,6 @@
                     <input type="text" name="_gotcha" style="display:none">
                     <button type="submit">Send Message</button>
                 </form>
-
                 <div class="social-links">
                     <a href="https://instagram.com/your-username" target="_blank" title="Instagram"><img src="images/instagram-icon.png" alt="Instagram Icon"></a>
                     <a href="https://facebook.com/your-username" target="_blank" title="Facebook"><img src="images/facebook-icon.png" alt="Facebook Icon"></a>
